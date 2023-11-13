@@ -8,7 +8,7 @@ from flask import jsonify, request, send_file
 import sys, os
 import qrcode
 import numpy as np
-from pyzbar.pyzbar import decode
+from zxing import BarCodeReader
 import cv2
 
 
@@ -119,26 +119,18 @@ def decodeQRCode():
 
     try:
 
-    # Convert the image to grayscale    
-        gray_qr_code = cv2.cvtColor(qr_code_image, cv2.COLOR_BGR2GRAY)
+        def decode_qr_code(image_path):
+            reader = BarCodeReader()
+            barcode = reader.decode(image_path)
+            return barcode.parsed
 
-        # Decode the QR code
-        decoded_objects = decode(gray_qr_code)
-
-        # Print the decoded data
-        for obj in decoded_objects:
-            print("Data:", obj.data.decode("utf-8"))
-
-        # Alternatively, you can access the first decoded data directly
-        if decoded_objects:
-            print("First Decoded Data:", decoded_objects[0].data.decode("utf-8"))
-
+        qr_code = decode_qr_code("qrcode.png")
         w3 = python_backend.contract.blockchain.w3
         w3.middleware_onion.inject(geth_poa_middleware, layer=0)
         prescriptionDetailContract = prescriptionDetailsInstance(w3)
-        res = decodeInputData(w3, decoded_objects[0].data.decode("utf-8"), prescriptionDetailContract)
+        res = decodeInputData(w3, qr_code, prescriptionDetailContract)
         result = {
-            "hash" : decoded_objects[0].data.decode("utf-8"),
+            "hash" : qr_code,
             "data" : res
         }
         return Success("Success",result , 200)

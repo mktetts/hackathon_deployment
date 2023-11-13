@@ -1,19 +1,9 @@
-import cv2
-from pyzbar.pyzbar import decode
+from zxing import BarCodeReader
 
-# Read the QR code image
-qr_code_image = cv2.imread("qrcode.png")
+def decode_qr_code(image_path):
+    reader = BarCodeReader()
+    barcode = reader.decode(image_path)
+    return barcode.parsed
 
-# Convert the image to grayscale
-gray_qr_code = cv2.cvtColor(qr_code_image, cv2.COLOR_BGR2GRAY)
-
-# Decode the QR code
-decoded_objects = decode(gray_qr_code)
-
-# Print the decoded data
-for obj in decoded_objects:
-    print("Data:", obj.data.decode("utf-8"))
-
-# Alternatively, you can access the first decoded data directly
-if decoded_objects:
-    print("First Decoded Data:", decoded_objects[0].data.decode("utf-8"))
+qr_code = decode_qr_code("qrcode.png")
+print(qr_code)

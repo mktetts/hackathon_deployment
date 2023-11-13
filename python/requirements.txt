@@ -38,5 +38,4 @@ opencv-python-headless
 deepspeed
 librosa
 qrcode
-pyzbar
-pyboof
+zxing
