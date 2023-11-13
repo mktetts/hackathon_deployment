@@ -5,6 +5,7 @@ import "../css/App.css"
 import Peer from 'peerjs'
 import CryptoJS from 'crypto-js';
 import { Buffer } from 'buffer';
+import $ from 'jquery';
 
 
 function DoctorPrescription() {

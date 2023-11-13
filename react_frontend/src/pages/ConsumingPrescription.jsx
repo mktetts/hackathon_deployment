@@ -4,6 +4,7 @@ import axios from "axios";
 import Peer from 'peerjs'
 import "../css/App.css"
 import CryptoJS from 'crypto-js';
+import $ from 'jquery';
 
 function ConsumingPrescription() {
 
