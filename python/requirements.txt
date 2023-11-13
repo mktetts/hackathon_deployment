@@ -1,0 +1,42 @@
+flask
+python-dotenv
+web3
+requests
+py-solc-x
+flask-cors
+pycln
+black
+
+openvino>=2023.1.0
+diffusers[torch]>=0.9.0
+huggingface
+huggingface-hub>=0.9.1
+gradio
+transformers
+
+# tensorflow>=2.5,<=2.14; sys_platform != 'darwin' and python_version > "3.8"
+ipywidgets
+tensorflow
+
+onnx>=1.11.0
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
+
+# transformers>=4.21.1
+
+black==21.12b0
+click==8.0.3
+mypy-extensions==0.4.3
+pathspec==0.9.0
+platformdirs==2.4.0
+tomli==1.2.2
+
+nncf
+opencv-python-headless
+deepspeed
+librosa
+qrcode
+pyzbar
+pyboof

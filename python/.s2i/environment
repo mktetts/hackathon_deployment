@@ -1,0 +1,2 @@
+# Additional packages to be installed during the build
+OPENSHIFT_PYTHON_INSTALL_LIBRARIES=libGL

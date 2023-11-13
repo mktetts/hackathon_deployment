@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ganache-cli
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ganache-cli
+  template:
+    metadata:
+      labels:
+        app: ganache-cli
+    spec:
+      containers:
+      - name: ganache-cli
+        image: trufflesuite/ganache-cli:latest  # Use the image for Ganache CLI
+        ports:
+        - containerPort: 8545  # Ganache listens on port 8545 for Ethereum RPC
+        args: ["-h", "0.0.0.0"]  # Bind to all network interfaces
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ganache-cli
+spec:
+  selector:
+    app: ganache-cli
+  ports:
+  - protocol: TCP
+    port: 8545  # The port to expose
+    targetPort: 8545
+  type: ClusterIP  # You can change this to NodePort or LoadBalancer if needed

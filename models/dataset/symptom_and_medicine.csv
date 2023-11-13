@@ -1,0 +1,159 @@
+Serial No, Symptom1, Symptom2, Symptom3, Medicine
+1, Headache, Fever, Nausea, Paracetamol
+2, High Cold, Sneezing, Sore Throat, Ibuprofen
+3, Shivering, Body Ache, Fatigue, Aspirin
+4, Cough, Shortness of Breath, Chest Pain, Cough Syrup
+5, Upset Stomach, Diarrhea, Abdominal Pain, Loperamide
+6, Joint Pain, Swelling, Redness, Naproxen
+7, Insomnia, Anxiety, Restlessness, Diazepam
+8, Dry Cough, Difficulty Breathing, Wheezing, Inhaler
+9, Acid Reflux, Heartburn, Indigestion, Omeprazole
+10, Diabetes, Increased Thirst, Fatigue, Metformin
+11, Migraine, Light Sensitivity, Nausea, Sumatriptan
+12, Allergic Rhinitis, Itchy Eyes, Runny Nose, Loratadine
+13, Arthritis, Morning Stiffness, Joint Swelling, Methotrexate
+14, Hypertension, Dizziness, Blurred Vision, Amlodipine
+15, Gastroenteritis, Vomiting, Fever, Oral Rehydration Solution
+16, Urinary Tract Infection, Painful Urination, Frequency, Ciprofloxacin
+17, Asthma, Chest Tightness, Shortness of Breath, Albuterol
+18, Insulinoma, Hypoglycemia, Confusion, Glucagon
+19, Osteoporosis, Bone Fractures, Loss of Height, Alendronate
+20, Hypothyroidism, Fatigue, Weight Gain, Levothyroxine
+21, Hyperthyroidism, Weight Loss, Rapid Heartbeat, Propylthiouracil
+22, Anemia, Fatigue, Pale Skin, Iron Supplements
+23, Gout, Joint Pain, Swelling, Colchicine
+24, Peptic Ulcer, Abdominal Pain, Vomiting Blood, Ranitidine
+25, Major Depressive Disorder, Persistent Sadness, Sleep Disturbance, Sertraline
+26, Panic Disorder, Panic Attacks, Trembling, Clonazepam
+27, Seasonal Affective Disorder, Low Energy, Oversleeping, Light Therapy
+28, Attention Deficit Hyperactivity Disorder, Inattention, Impulsivity, Methylphenidate
+29, Chronic Obstructive Pulmonary Disease, Chronic Cough, Shortness of Breath, Tiotropium
+30, Hypertensive Crisis, Severe Headache, Nosebleeds, Hydralazine
+31, Deep Vein Thrombosis, Leg Swelling, Pain, Warfarin
+32, Psoriasis, Red Patches, Scaling, Topical Corticosteroids
+33, Glaucoma, Increased Eye Pressure, Peripheral Vision Loss, Timolol
+34, Vertigo, Dizziness, Nausea, Meclizine
+35, Rheumatoid Arthritis, Joint Stiffness, Swelling, Etanercept
+36, Irritable Bowel Syndrome, Abdominal Pain, Bloating, Peppermint Oil
+37, Premenstrual Syndrome, Mood Swings, Cramps, NSAIDs
+38, Benign Prostatic Hyperplasia, Difficulty Urinating, Frequent Urination, Tamsulosin
+39, Hypertensive Emergency, Severe Hypertension, Organ Damage, Nicardipine
+40, Systemic Lupus Erythematosus, Joint Pain, Skin Rash, Hydroxychloroquine
+41, Diabetic Neuropathy, Numbness, Tingling, Gabapentin
+42, Crohn's Disease, Abdominal Pain, Diarrhea, Infliximab
+43, Hyperlipidemia, High Cholesterol, Statin, Rosuvastatin
+44, Erectile Dysfunction, Difficulty Maintaining Erection, Sildenafil
+45, Opioid Addiction, Cravings, Withdrawal Symptoms, Methadone
+46, Opioid Overdose, Respiratory Depression, Unresponsiveness, Naloxone
+47, Bipolar Disorder, Mood Swings, Mania, Lithium
+48, Narcolepsy, Excessive Daytime Sleepiness, Cataplexy, Modafinil
+49, Fibromyalgia, Widespread Pain, Fatigue, Pregabalin
+50, Hypercalcemia, Weakness, Kidney Stones, Hydration
+51, Anaphylaxis, Difficulty Breathing, Swelling, Epinephrine
+52, Myasthenia Gravis, Muscle Weakness, Fatigue, Pyridostigmine
+53, Pancreatitis, Abdominal Pain, Nausea, Fasting
+54, Melasma, Brown Patches, Sunscreen, Hydroquinone
+55, Ovarian Cancer, Abdominal Bloating, Pelvic Pain, Chemotherapy
+56, Endometriosis, Pelvic Pain, Painful Periods, Birth Control Pills
+57, Alzheimer's Disease, Memory Loss, Cognitive Decline, Donepezil
+58, Parkinson's Disease, Tremors, Rigidity, Levodopa
+59, Celiac Disease, Abdominal Pain, Diarrhea, Gluten-Free Diet
+60, Diverticulitis, Abdominal Pain, Fever, Antibiotics
+61, Menopause, Hot Flashes, Night Sweats, Hormone Replacement Therapy
+62, Testicular Cancer, Testicular Lump, Pain, Orchiectomy
+63, Multiple Sclerosis, Fatigue, Numbness, Disease-Modifying Therapy
+64, Peripheral Artery Disease, Leg Pain, Claudication, Antiplatelet Agents
+65, Wilson's Disease, Liver Dysfunction, Neurological Symptoms, Chelation Therapy
+66, Pneumonia, Cough, Fever, Antibiotics
+67, Encephalitis, Fever, Headache, Antiviral Medications
+68, Gastritis, Abdominal Pain, Nausea, Proton Pump Inhibitors
+69, Toxoplasmosis, Flu-like Symptoms, Muscle Aches, Antibiotics
+70, Lyme Disease, Erythema Migrans, Fatigue, Doxycycline
+71, Heparin-Induced Thrombocytopenia, Blood Clots, Low Platelet Count, Argatroban
+72, Sickle Cell Anemia, Fatigue, Painful Crises, Hydroxyurea
+73, Tonsillitis, Sore Throat, Difficulty Swallowing, Antibiotics
+74, Glomerulonephritis, Hematuria, Swelling, Immunosuppressants
+75, Hyperthyroid Crisis, Severe Hyperthyroidism, Thyroid Storm, Beta Blockers
+76, Hypoparathyroidism, Muscle Cramps, Tingling, Calcium and Vitamin D Supplements
+77, Acute Kidney Injury, Decreased Urine Output, Swelling, Fluid Resuscitation
+78, Preeclampsia, High Blood Pressure, Swelling, Magnesium Sulfate
+79, Gestational Diabetes, High Blood Sugar, Glucose Monitoring, Insulin
+80, Eclampsia, Seizures, High Blood Pressure, Delivery
+81, Deep Vein Thrombosis, Leg Swelling, Pain, Rivaroxaban
+82, Mesothelioma, Chest Pain, Shortness of Breath, Palliative Care
+83, Ovarian Cyst, Pelvic Pain, Bloating, Observation
+84, Pulmonary Embolism, Shortness of Breath, Chest Pain, Anticoagulation
+85, Hypertrophic Cardiomyopathy, Chest Pain, Shortness of Breath, Beta Blockers
+86, Meningitis, Headache, Neck Stiffness, Antibiotics
+87, Aortic Aneurysm, Chest Pain, Back Pain, Surgical Repair
+88, Hyperemesis Gravidarum, Severe Nausea, Vomiting, Intravenous Fluids
+89, Otitis Media, Ear Pain, Fluid in the Ear, Antibiotics
+90, Delirium, Confusion, Hallucinations, Supportive Care
+91, Necrotizing Fasciitis, Severe Pain, Swelling, Surgical Debridement
+92, Cirrhosis, Fatigue, Jaundice, Liver Transplantation
+93, Schizophrenia, Hallucinations, Delusions, Antipsychotics
+94, Anorexia Nervosa, Extreme Weight Loss, Fear of Gaining Weight, Psychotherapy
+95, Bulimia Nervosa, Binge Eating, Purging, Psychotherapy
+96, Carpal Tunnel Syndrome, Hand Numbness, Tingling, Splinting
+97, Cholecystitis, Abdominal Pain, Nausea, Cholecystectomy
+98, Chronic Fatigue Syndrome, Fatigue, Sleep Disturbance, Symptomatic Treatment
+99, Gastroesophageal Reflux Disease, Heartburn, Regurgitation, Lifestyle Modification
+100, Hemorrhoids, Rectal Bleeding, Itching, Topical Creams
+101, Inflammatory Bowel Disease, Abdominal Pain, Diarrhea, Immunosuppressants
+102, Interstitial Cystitis, Bladder Pain, Frequency, Elmiron
+103, Intestinal Obstruction, Abdominal Pain, Vomiting, Surgical Intervention
+104, Lactose Intolerance, Bloating, Diarrhea, Lactase Supplements
+105, Meniere's Disease, Vertigo, Hearing Loss, Diuretics
+106, Osteoarthritis, Joint Pain, Stiffness, Acetaminophen
+107, Paget's Disease of Bone, Bone Pain, Deformities, Bisphosphonates
+108, Pneumothorax, Chest Pain, Shortness of Breath, Chest Tube Insertion
+109, Polycystic Ovary Syndrome, Irregular Periods, Ovarian Cysts, Birth Control Pills
+110, Restless Legs Syndrome, Leg Discomfort, Urge to Move Legs, Dopamine Agonists
+111, Sinusitis, Facial Pain, Nasal Congestion, Nasal Decongestants
+112, Temporomandibular Joint Disorder, Jaw Pain, Clicking Sound, Physical Therapy
+113, Tuberculosis, Cough, Weight Loss, Anti-Tuberculosis Drugs
+114, Uterine Fibroids, Heavy Menstrual Bleeding, Pelvic Pain, Hysterectomy
+115, Varicose Veins, Leg Swelling, Bulging Veins, Compression Stockings
+116, Acne Vulgaris, Pimples, Blackheads, Topical Retinoids
+117, Ankylosing Spondylitis, Back Pain, Stiffness, NSAIDs
+118, Bell's Palsy, Facial Weakness, Drooping, Physical Therapy
+119, Bursitis, Joint Pain, Swelling, Rest and Ice
+120, Cellulitis, Redness, Swelling, Antibiotics
+121, Chlamydia, Genital Discharge, Painful Urination, Antibiotics
+122, Diabetic Retinopathy, Vision Changes, Blindness, Laser Therapy
+123, Dysmenorrhea, Menstrual Cramps, Pain Relief Medications
+124, Eczema, Itchy Skin, Redness, Topical Corticosteroids
+125, Fibroadenoma, Breast Lump, Non-Cancerous, Observation
+126, Gastric Cancer, Abdominal Pain, Weight Loss, Chemotherapy
+127, Hashimoto's Thyroiditis, Fatigue, Weight Gain, Levothyroxine
+128, Hidradenitis Suppurativa, Painful Lumps, Abscesses, Antibiotics
+129, Impetigo, Skin Rash, Blisters, Topical Antibiotics
+130, Influenza, Fever, Muscle Aches, Antiviral Medications
+131, Keratosis Pilaris, Bumpy Skin, Redness, Moisturizers
+132, Lichen Planus, Itchy Purple Bumps, Topical Steroids
+133, Molluscum Contagiosum, Flesh-Colored Bumps, Cryotherapy
+134, Necrotizing Enterocolitis, Abdominal Distension, Bloody Stools, Surgery
+135, Onychomycosis, Nail Fungus, Oral Antifungal Medications
+136, Patellofemoral Pain Syndrome, Knee Pain, Physical Therapy
+137, Pityriasis Rosea, Rash, Herald Patch, Supportive Care
+138, Postpartum Depression, Sadness, Lack of Energy, Psychotherapy
+139, Premature Ovarian Failure, Irregular Periods, Infertility, Hormone Replacement Therapy
+140, Prostatitis, Pelvic Pain, Urinary Symptoms, Antibiotics
+141, Raynaud's Disease, Cold Fingers, Color Changes, Warmth
+142, Rosacea, Facial Redness, Bumps, Topical Antibiotics
+143, Rotator Cuff Tear, Shoulder Pain, Weakness, Physical Therapy
+144, Rubella, Rash, Fever, Vaccination
+145, Scabies, Itchy Rash, Burrows, Topical Scabicides
+146, Scoliosis, Spinal Curvature, Back Pain, Bracing
+147, Seborrheic Dermatitis, Dandruff, Red Skin, Medicated Shampoos
+148, Stye, Eyelid Bump, Redness, Warm Compresses
+149, Tennis Elbow, Elbow Pain, Weak Grip, Rest and Ice
+150, Tinea Versicolor, Skin Discoloration, Rash, Antifungal Creams
+151, Trichomoniasis, Genital Itching, Discharge, Antibiotics
+152, Uveitis, Eye Redness, Pain, Corticosteroid Eye Drops
+153, Vitamin B12 Deficiency, Fatigue, Weakness, Vitamin B12 Supplements
+154, Wegener's Granulomatosis, Nosebleeds, Sinus Pain, Immunosuppressants
+155, Yellow Fever, Fever, Jaundice, Vaccination
+156, Zika Virus, Fever, Rash, Supportive Care
+157, Achilles Tendonitis, Heel Pain, Swelling, Rest and Ice
+158, Acute Respiratory Distress Syndrome, Difficulty Breathing, Low Oxygen
