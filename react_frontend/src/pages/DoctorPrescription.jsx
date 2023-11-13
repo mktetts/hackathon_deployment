@@ -135,7 +135,7 @@ function DoctorPrescription() {
               
               call.answer(mediaStream)
               call.on('stream', function(remoteStream) {
-                stream = remoteStream;
+                let stream = remoteStream;
                 remoteVideoRef.current.srcObject = remoteStream
                 remoteVideoRef.current.play();
               });
