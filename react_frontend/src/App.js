@@ -12,7 +12,6 @@ import Init from "./pages/Init";
 import DoctorPrescription from "./pages/DoctorPrescription";
 import ConsumingPrescription from "./pages/ConsumingPrescription";
 import Admin from "./pages/Admin";
-import Gaming from "./pages/Gaming";
 import Medical from "./pages/Medical";
 // import '/src/assets/css/app.min.css'
 // import '/src/assets/css/icons.min.css'
@@ -25,7 +24,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Init />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/gaming" element={<Gaming />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/medical" element={<Medical />} />
           <Route path="/doctorPrescription" element={<DoctorPrescription />} />
